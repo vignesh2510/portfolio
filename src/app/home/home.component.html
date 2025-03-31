@@ -1,0 +1,30 @@
+<div class="preloader" *ngIf="loading">
+  <div class="spinner"></div>
+</div>
+<div *ngIf="!loading">
+<video autoplay loop muted [ngClass]="onee">
+    <source [src]="one" type="video/mp4">
+  </video>
+  <div class="xn container">
+    <div class="row container">
+        <div class="on col-md-12">
+            <h1 class="z">{{onh}}</h1><br>
+            <p class="animate-element left" id="myElement">{{onp}}</p><br>
+            <ul class="nav nav-underline h">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" routerLink='/home' style="color: #18d26e;">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink='/about' style="color: #18d26e;">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="/resume" style="color: #18d26e;">resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="/contact" style="color: #18d26e;">contact</a>
+                </li>
+              </ul>
+        </div>
+    </div>
+  </div>
+</div> 

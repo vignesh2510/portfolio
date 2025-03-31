@@ -1,0 +1,134 @@
+.aa{
+    padding-left: 520px;
+}
+.nav-item{
+    margin-left: 80px;
+}
+.navbar-header{
+     font-size: 30px
+}
+.twoo{
+    background-image: url(/assets/image/360_F_290828816_pbLVbblZaoCMVSeDxtayjDZNfrMAlvrQ.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+.container{
+    background: rgba(0, 0, 0, 0.9); 
+}
+.so{
+    border-left: 2px solid #18d26e;
+    padding-left: 25px;
+}
+.so h4{
+    color: #18d26e;
+}
+.so h5{
+    border: 2px solid #1f1e1e;
+    background-color: #1f1e1e;
+    padding: 5px;
+    width: 80px;
+}
+/* .so h4{
+    animation: fade-left 1s ease-in;
+}
+@keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+.so p{
+    animation: fade-up 1s ease-in;
+}
+@keyframes fade-up {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+} */
+.dl a:link, a:visited {
+    background-color:#18d26e;
+    color: white;
+    height: 35px;
+    width: 100px;
+    padding-top: 9px;
+    padding-left: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 450px;
+    margin-top: 20px;
+}  
+.dl a:hover, a:active {
+    background-color:#18d26e;
+}
+.animate-element {
+    opacity: 0;
+    transition: opacity 1s, transform 1s;
+}
+.scrolled {
+    opacity: 1;
+    transform: translateY(0);
+}
+.left{
+    transform: translateX(-100px);
+} 
+.left.scrolled {
+    opacity: 1;
+    transform: translateX(0);
+}
+.up{
+    transform: translateY(100px);
+}
+.up.scrolled {
+    opacity: 1;
+    transform: translateY(0);
+}
+@media screen and (max-width: 1024px) {
+    .aa{
+        padding-left: 400px;
+    }
+    .nav-item{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .aa{
+        padding-left: 180px;
+    }
+    .nav-item{
+        margin-left: 50px;
+    }
+    .dl a:link, a:visited {
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .aa{
+        padding-left: 0px;
+    }
+    .nav-item{
+        margin-left: 0px;
+    }
+    .dl a:link, a:visited {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .dl a:link, a:visited {
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .dl a:link, a:visited {
+        margin-left: 100px;
+    }
+}

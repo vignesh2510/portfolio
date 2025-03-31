@@ -1,0 +1,193 @@
+.twoo{
+    background-image: url(/assets/image/360_F_290828816_pbLVbblZaoCMVSeDxtayjDZNfrMAlvrQ.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+.aa{
+    padding-left: 520px;
+}
+.nav-item{
+    margin-left: 80px;
+}
+.navbar-header{
+     font-size: 30px
+} 
+.container{
+    background: rgba(0, 0, 0, 0.9); 
+}
+.ti  img{
+    height: 400px;
+    border-radius: 10px;
+}
+.ti {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+@keyframes fadeIn {
+    0% {
+      transform: scale(0);
+      opacity: 0.0;
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    80% {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+}
+@-webkit-keyframes fadeIn {
+    0% {
+      -webkit-transform: scale(0);
+      opacity: 0.0;
+    }
+    60% {
+      -webkit-transform: scale(1.1);
+    }
+    80% {
+      -webkit-transform: scale(0.9);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+      opacity: 1;
+    }
+} 
+#spin:after {
+    content:"";
+    animation: spin 6s linear infinite;
+}
+@keyframes spin {
+    0% { content:"I'M VIGNESHWARAN";}
+    100% { content: "FRONT END DEVELOPER"; }
+}
+.th h1 {
+    color: #18d26e;
+    width: 22ch;
+    animation: typing 3s steps(20) infinite, blink .4s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+}
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+.animate-element {
+    opacity: 0;
+    transition: opacity 1s, transform 1s;
+}
+.left{
+    transform: translateX(-100px);
+} 
+.left.scrolled {
+    opacity: 1;
+    transform: translateX(0);
+}
+.right{
+    transform: translateX(100px);
+} 
+.right.scrolled {
+    opacity: 1;
+    transform: translateX(0);
+}
+.up{
+    transform: translateY(100px);
+}
+.up.scrolled {
+    opacity: 1;
+    transform: translateY(0);
+}
+.scrolled {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 1024px) {
+    .aa{
+        padding-left: 400px;
+    }
+    .nav-item{
+        margin-left: 70px;
+    }
+    .th{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ti img{
+       width: 230px;
+       height: 350px;
+    }
+    .aa{
+        padding-left: 180px;
+    }
+    .nav-item{
+        margin-left: 50px;
+    }
+    .atp p{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .th{
+        padding-top: 20px;
+    }
+    .th p{
+        margin-top: -30px;
+        margin-left: 20px;
+    }
+    .aa{
+        padding-left: 0px;
+    }
+    .nav-item{
+        margin-left: 0px;
+    }
+    .ti img{
+      padding-left: 50px;
+      width: 350px;
+    }
+    .atp p{
+        width: 380px;
+    }
+    
+}
+@media screen and (max-width: 375px){
+  .ti img{
+    padding-left: 30px;
+    width: 300px;
+  }
+  .atp p{
+    margin-left: 5px;
+    width: 350px;
+}
+}
+@media screen and (max-width: 320px){
+    .ti img{
+      width: 265px;
+      padding-left: 25px;  
+    }
+    .atp p{
+        margin-left: 5px;
+        width: 290px;
+    }
+    .th h1{
+      margin-left: -15px;
+    }
+}

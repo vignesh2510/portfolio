@@ -1,0 +1,255 @@
+.twoo{
+    background-image: url(/assets/image/360_F_290828816_pbLVbblZaoCMVSeDxtayjDZNfrMAlvrQ.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+.aa{
+    padding-left: 520px;
+}
+.nav-item{
+    margin-left: 80px;
+}
+.navbar-header{
+     font-size: 30px
+}
+.container{
+    background: rgba(0, 0, 0, 0.9); 
+}
+.o{
+    background-color: #1f1e1e;
+    width: 500px;
+    height: 105px;
+    padding: 20px;
+    border: 2px none;
+}
+.oo{
+    background-color: #1f1e1e;
+    height: 400px;
+    
+}
+.o p{
+    padding-left: 30px;
+}
+.o h4{
+    color:#18d26e;
+    font-size: 25px;
+}
+.btn button{
+    height: 30px;
+    width: 100px;
+    background-color: #18d26e;
+    border-radius: 8px;
+    border: none;
+}
+.btn button {
+    transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -webkit-transition: transform .5s ease-in-out;
+}
+  
+.btn button:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.ft{
+
+    height: 50px;
+}
+.ft p{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.fto{
+    color: #18d26e;
+}
+.o{
+    transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -webkit-transition: transform .5s ease-in-out;
+}
+.o:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.o{
+    position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+.oone{animation-timing-function: ease;}
+.ot{animation-timing-function: ease-out;}
+.oth{animation-timing-function: ease-in-out;}
+.of{animation-timing-function: linear;}
+
+@keyframes mymove {
+    from {right: 300px;}
+    to {right: 0px;}
+}
+.animate-element {
+    opacity: 0;
+    transition: opacity 1s, transform 1s;
+}
+.scrolled {
+    opacity: 1;
+    transform: translateY(0);
+}
+.up{
+    transform: translateY(100px);
+}
+.up.scrolled {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* .o h4{
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+    animation-duration: 3s;
+    -webkit-animation-duration: 2s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+}
+  
+@keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    50% {
+      transform: translateY(8%);
+    }
+    65% {
+      transform: translateY(-4%);
+    }
+    80% {
+      transform: translateY(4%);
+    }
+    95% {
+      transform: translateY(-2%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  @-webkit-keyframes slideDown {
+    0% {
+      -webkit-transform: translateY(-100%);
+    }
+    50% {
+      -webkit-transform: translateY(8%);
+    }
+    65% {
+      -webkit-transform: translateY(-4%);
+    }
+    80% {
+      -webkit-transform: translateY(4%);
+    }
+    95% {
+      -webkit-transform: translateY(-2%);
+    }
+    100% {
+      -webkit-transform: translateY(0%);
+    }
+} */
+@media screen and (max-width: 1024px) {
+    .aa{
+        padding-left: 400px;
+    }
+    .nav-item{
+        margin-left: 70px;
+    }
+    .o{
+        width: 380px;
+    }
+    .k iframe{
+        width: 400px;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .aa{
+        padding-left: 180px;
+    }
+    .nav-item{
+        margin-left: 50px;
+    }
+    .o{
+        width: 370px;
+    }
+    .k iframe{
+        width: 300px;
+        margin-left: 25px ;
+    }
+}
+@media screen and (max-width: 425px){
+    .aa{
+        padding-left: 0px;
+    }
+    .nav-item{
+        margin-left: 0px;
+    }
+    .k iframe{
+        width: 370px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 20px;
+     }
+     #name{
+        margin-left: 20px;
+        width: 350px;
+     }
+     #email{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 350px;
+     }
+     #comment{
+        margin-left: 20px;
+        width: 350px;
+     }
+}
+@media screen and (max-width: 375px){
+    .o{
+        width: 340px;
+    }
+    .k iframe{
+        width: 320px; 
+    }
+    #name{
+        width: 300px;
+    }
+    #email{
+        width: 300px;
+    }
+    #comment{
+        width: 300px;
+    }
+    /* .btn{
+        margin-left: 80px;
+    } */
+}
+@media screen and (max-width: 320px){
+    /* .btn{
+        margin-left: 80px;
+    } */
+    .o{
+        margin-left: 3px;
+        width: 290px;
+        height: 120px;
+    }
+    .k iframe{
+        width: 270px; 
+    }
+    #name{
+        width: 250px;
+    }
+    #email{
+        width: 250px;
+    }
+    #comment{
+        width: 250px;
+    }
+} 

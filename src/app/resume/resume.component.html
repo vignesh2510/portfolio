@@ -1,0 +1,81 @@
+<!------------------------------------------------- navbar -------------------------------------------------------->
+<nav class="navbar navbar-expand-sm" style="background-color: rgba(0, 0, 0, 0.9);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item aa">
+            <a class="nav-link" routerLink='/home' style="color: #18d26e;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink='/about' style="color: #18d26e;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/resume" style="color: #18d26e;">Resume</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact" style="color: #18d26e;">Contact</a>
+          </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+<router-outlet></router-outlet>
+<!---------------------------------------------------- section1 ----------------------------------------------------->
+<div [ngClass]="two" class="col-12"><br>
+    <div class="container col-md-11">
+        <h5 [ngStyle]="x">{{a}}</h5><hr>
+       <h1>{{aone}}</h1><br>
+       <div class="row animate-element" id="myElement">
+        <div class="col-md-6">
+            <h3>{{re}}</h3><br>
+            <div class="so">
+            <h4 class="animate-element left" id="myElement">{{reo}}</h4>
+            <h5>2020-2023</h5>
+            <p class="animate-element up" id="myElement"><b>{{repo}}</b></p>
+            <p class="animate-element up" id="myElement">{{rept}}</p>
+          </div>
+          </div>
+          <div class="col-md-6">
+            <h3>{{rs}}</h3><br>
+            <div class="so">
+                <h4 class="animate-element left" id="myElement">{{rso}}</h4>
+                <h5 >2022-2022</h5>
+                <p class="animate-element up" id="myElement"><b>{{rspo}}</b></p>
+                <p class="animate-element up" id="myElement">{{rspt}}</p>
+            </div>
+        </div>
+       </div><br>
+       <div class="row animate-element" id="myElement">
+        <div class="col-md-6">
+            <h3>{{rt}}</h3><br>
+            <div class="so">
+              <h4 class="animate-element left" id="myElement">{{rto}}</h4>
+              <h5>2020-2023</h5>
+              <p class="animate-element up" id="myElement"><b>{{rtpo}}</b></p>
+              <p class="animate-element up" id="myElement">{{rtpt}}</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3>{{rl}}</h3><br>
+            <div class="so">
+              <h4 class="animate-element left" id="myElement">{{rlo}}</h4>
+              <p class="animate-element up" id="myElement"><b>{{rlot}}</b></p>
+              <ul class="animate-element up" id="myElement">
+                <li>Web Technologies - HTML, CSS ,JAVASCRIPT</li>
+                <li>Tool (IDEs) - Visual Studio Code</li>
+                <li>Front End - BOOTSTRAP, ANGULAR</li>
+                <li>Database - Mysql</li>
+              </ul>
+            </div>
+          </div>
+       </div>
+       <div class="dl animate-element" id="myElement">
+        <a href="/portflio/src/assets/image/resume - vignesh.pdf" download="vigneshwaran-resume">
+        download</a>
+      </div><br>
+    </div><br>
+</div>
