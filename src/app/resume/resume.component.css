@@ -8,7 +8,7 @@
      font-size: 30px
 }
 .twoo{
-    background-image: url(/assets/image/360_F_290828816_pbLVbblZaoCMVSeDxtayjDZNfrMAlvrQ.jpg);
+    background-image: url('/assets\image/360_F_290828816_pbLVbblZaoCMVSeDxtayjDZNfrMAlvrQ.jpg');
     background-size: cover;
     color: white;
     background-attachment: fixed;
