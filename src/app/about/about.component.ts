@@ -45,7 +45,7 @@ export class AboutComponent implements AfterViewInit{
 
 
 
-  two='twoo';
+  two="twoo";
   a="ABOUT";
   aone="LEARN MORE ABOUT ME";
   ai="assets/image/vicky.jpeg";
